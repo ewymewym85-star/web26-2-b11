@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>image_basic</title>
+</head>
+
+<body>
+    <img src="Penguins.jpg" alt="펭귄" width="300">
+    <img src="Nothing" alt="그림이 존재하지 않습니다." width="300" <!-- <img <img
+        src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA5MjJfMjE5%2FMDAxNzI2OTk2OTIwOTU4.y_IZ8VBuL6uwHFWfEQX8HGTSuDV9K7Q-hd0g5Nkf3Zcg.Ct3ME0TPEcWIGWD5l5o_RHBhjM8mGtprc_9wrjNOv9Ig.PNG%2F7e2e55a38885bfe567085239eeeba9a1.png&type=sc960_832"
+        alt="보노보노" width="300">
+    https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA5MjJfMjE5%2FMDAxNzI2OTk2OTIwOTU4.y_IZ8VBuL6uwHFWfEQX8HGTSuDV9K7Q-hd0g5Nkf3Zcg.Ct3ME0TPEcWIGWD5l5o_RHBhjM8mGtprc_9wrjNOv9Ig.PNG%2F7e2e55a38885bfe567085239eeeba9a1.png&type=sc960_832
+    -->
+    <img src="bonobono.jpeg" alt="보노보노" width="300" <h2>음악 삽입하기</h2>
+    <audio src="Kalimba.mp3" control="control"></audio>
+
+    <h2>웹 브라우저 제약이 없도록 음악 삽입</h2>
+    <audio controls="control">
+        <source src="Kalimba.mp3" type="audio/mp3">
+        <source src="Kalimba.ogg" type="audio/ogg">
+    </audio>
+    <h2>동영상 삽입</h2>
+    <video controls="control">
+        <source src="Wildlife.mp4" type="video/ogg">
+        <source src="Wildlife.webm" type="video/webm">
+    </video>
+    <h2>18동영상 불러오는 동안 다른 이미지 보여주기</h2>
+    <video controls="control">
+        <source src="Wildlife.mp4" type="video/ogg">
+        <source src="Wildlife.webm" type="video/webm">
+    </video>
+</body>
+
+</html>
